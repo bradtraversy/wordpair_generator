@@ -1,13 +1,18 @@
 import 'package:flutter/material.dart';
-import './random_words.dart';
+import 'package:wordpair_generator/utils/generateMaterialColor.dart';
+import 'package:wordpair_generator/utils/customTheme.dart';
+import 'package:wordpair_generator/random_words.dart';
 
-void main() => runApp(MyApp());
+void main() => runApp(const MyApp());
 
 class MyApp extends StatelessWidget {
+  const MyApp({super.key});
+
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-        theme: ThemeData(primaryColor: Colors.purple[900]),
+        theme: ThemeData(
+            primarySwatch: generateMaterialColor(Palette.primaryColor)),
         home: RandomWords());
   }
 }

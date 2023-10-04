@@ -1,7 +1,16 @@
-# WordPair Generator
+# wordpair_generator
 
-Flutter crash course project based on the documentation project
+A new Flutter project.
 
-Generate random word pairs and add pairs to favorites
+## Getting Started
 
-[Flutter Setup Gist](https://gist.github.com/bradtraversy/f1af78251962bb210c2ebe5b4f9a5c35)
+This project is a starting point for a Flutter application.
+
+A few resources to get you started if this is your first Flutter project:
+
+- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
+- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+
+For help getting started with Flutter development, view the
+[online documentation](https://docs.flutter.dev/), which offers tutorials,
+samples, guidance on mobile development, and a full API reference.
